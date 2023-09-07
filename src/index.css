@@ -129,3 +129,13 @@ body {
   cursor: pointer;
   font-size: 48px;
 }
+
+.footer {
+  position: absolute;
+  width: 300px;
+  bottom: 0;
+ }
+
+ footer p {
+  text-align: center;
+ }

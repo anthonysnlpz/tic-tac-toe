@@ -79,6 +79,7 @@ function App() {
   }
 
   return (
+    <>
     <main className="board">
       <h1>Tic Tac Toe</h1>
       <section className="game">
@@ -130,8 +131,11 @@ function App() {
             </section>
           )
         }
-
     </main>
+      <footer className="footer">
+        <p>&copy;Anthony Solano López</p>
+      </footer>
+      </>
   )
 }
 
